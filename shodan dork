@@ -1,0 +1,107 @@
+1)I searched companyname.com in the search. 
+2)I opened the link and it was having an undeveloped WordPress page with a search bar.
+3) I entered XSS payload and it popped up.
+4)Then I changed the request method from POST to GET and it worked like charm.
+5)In the search bar enter the payload “><img src=x onerror=alert(document.domain)>
+
+ssl.cert.subject.cn:"website.com" http.title:"admin"
+ssl: "website.com" http.title: "admin"
+ssl.cert.subject.cn:"website.com" admin
+ssl: "website.com" admin
+
+ ssl:"target[.]com" 200 http.title:"dashboard"
+hostname: target
+website.com "default password"
+ssl:target *200
+ssl:"target "200"   (and look for login page )
+ssl:"target"
+ssl.cert.subject.CN:"target.com"
+ssl.cert.subject.CN: "target" 200
+ssl.cert.subject.cn:"website.com" http.title:"admin"
+ssl: "website.com" http.title: "admin"
+ssl.cert.subject.cn:"website.com" admin
+ssl: "website.com" admin
+http.target:”302 Found”
+http.target:"Grafana"200
+http.target:"citrix gateway "200
+target:"Grafana"200
+default password: "target"
+apache: "target"
+ssl.cert.subject.cn:target.com
+ssl:target.com"200"
+              "admin"
+              "portal"
+              "login"
+              "kibana"
+title:”system dashboard” html:jira
+ssl%3A”development”+org%3A”Amazon.com”+port%3A”number”
+org:”Amazon” ssl:”target”
+org:’Name’ port:’80’
+X-Redirect-By: WordPress ssl:”name”
+http.html:QUERY ssl:”domain.com”
+http.favicon.hash:81586312 200
+
+--------------------------------Random Search---------------------------------
+port 16992       (find any sen information and login page and try to bypass)
+org:<not part of cert>
+kibana content-length:217 net:”cidr”
+net:<"CIDR,CIDR,CIDR">
+html:”Dashboard Jenkins” http.component:”jenkins”
+http.component%3A”java”
+query: html:”eBay Inc. All Right Reserved”
+X-Amz-Bucket-Region
+x-jenkins 200
+X-Generator: Drupal 7
+all:”mongodb server information” all:”metrics”
+port:27017 -all:”partially” all:”fs.files”
+port:”9200" all:”elastic indices”
+product:elastic port:9200
+product: CouchDB
+product: “apache tomcat”
+http.component:ruby port:3000
+html:”secret_key_base”
+html:”rack.version”
+html:/dana-na/ Pulse Secure VPN exploit
+"MongoDB Server Information" port:27017 -authentication
+"Set-Cookie: mongo-express=" "200 OK"
+mysql port:"3306"
+port:"9200" all:"elastic indices"
+port:5432 PostgreSQL
+proftpd port:21
+"220" "230 Login successful." port:21
+openssh port:22
+port:"23"
+port:"25" product:"exim"
+port:"11211" product:"Memcached"
+"X-Jenkins" "Set-Cookie: JSESSIONID" http.title:"Dashboard"
+"port: 53" Recursion: Enabled
+port:8291 os:"MikroTik RouterOS 6.45.9"
+product:"Apache httpd" port:"80"
+product:"Microsoft IIS httpd"
+product:"nginx"
+"port: 8080" product:"nginx"
+"authentication disabled" "RFB 003.008"
+"Authentication: disabled" port:445
+"X-Plex-Protocol" "200 OK" port:32400
+"220" "230 Login successful." port:21
+-------------------------------Useful Filter Searches for BB :- -------------------------
+
+https://www.shodan.io/host/ip#9200
+https://www.shodan.io/host/ip
+
+---------------------------------------------------------------------------------
+
+Some additional cheat sheet links:
+http://www.Shodanhq.com/?q=bitcoin-mining-proxy (Bitcoin proxy mining)
+http://www.Shodanhq.com/search?q=port%3A11 (Systat)
+http://www.Shodanhq.com/search?q=port%3A8089+splunkd (Splunk servers on tcp/8089)
+http://www.Shodanhq.com/search?q=port%3A17(Search for quote of the day)
+http://www.Shodanhq.com/search?q=port%3A123(Ntp monlist)
+http://www.Shodanhq.com/search?q=port%3A5632 (Vnc)
+http://www.Shodanhq.com/search?q=port%3A1434 ((MS-SQL (1434))
+http://www.Shodanhq.com/search?q=OpenSSL%2F1.0.1 (Servers running OpenSSL/1.0.1)
+http://www.Shodanhq.com/search?q=port%3A79 (Finger protocol)
+http://www.Shodanhq.com/search?q=port%3A15 (Netstat)
+http://www.Shodanhq.com/?q=telemetry+gateway (Telemetry gateway)
+http://www.Shodanhq.com/?q=port:161+country:US+simatic (Simatic automation system on port
+161 running in US)
