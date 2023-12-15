@@ -34,6 +34,12 @@ if [ ! -f "$url/recon/final.txt" ];then
 	touch $url/recon/final.txt
 fi
 
+
+How I Found P2 in 5 MINUTES Using Command line Chaining and Recon:
+1. Assetfinder | waybackurls | httprove | qsreplace '=' | anew > Url.txt
+2. Cat Url.txt | grep 'url=' | grep -v (usless domain captured by assetfinder) > file.txt
+Found SSRF, XSS and Few Open Redirection
+
 JS ANALYSIS ONELINERS
 Tools you need: 
 subfinder - https://github.com/projectdiscovery/subfinder
